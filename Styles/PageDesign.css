@@ -1,0 +1,37 @@
+body {
+    background-color: #000000;
+    margin: 0;
+}
+
+.leftpane {
+    width: 15%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    margin: 0;
+
+}
+
+.midpane {
+    width: 70%;
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+    left: 15%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory;
+    scroll-snap-stop: always;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+.rightpane {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    left: 80%;
+}

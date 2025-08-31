@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'nav';
+    src: url('../Fonts/CsAdysonRegularDemo-gw4L3.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'choiceText';
+    src: url(../Fonts/FF\ Clan\ OT\ Bold.otf);
+}
