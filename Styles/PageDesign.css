@@ -30,8 +30,8 @@ body {
 }
 
 .rightpane {
-    width: 15%;
+    width: 20%;
     height: 100%;
     position: fixed;
-    left: 80%;
+    right:0;
 }

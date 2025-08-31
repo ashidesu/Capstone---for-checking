@@ -54,3 +54,19 @@
     width: 20px;
     padding-right: 4px;
 }
+.trending{
+    font-family: 'nav';
+    letter-spacing: 1px;
+    color:white;
+    margin-left:15px
+}
+.trending-list{
+    list-style:none;
+    margin-left:-20px;
+}
+.trending-topic{
+    color:white;
+    margin-bottom: 20px;
+    font-family: 'choiceText';
+    font-weight: lighter;
+}

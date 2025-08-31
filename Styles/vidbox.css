@@ -17,32 +17,34 @@
 }
 
 .videoBox .videoContainer video {
-    max-height: 95vh;
     max-width: 100%;
     margin: 0;
     object-fit: cover;
 }
 
 .videoBox .videoContainer .videoBorder {
-    max-height: auto;
-    max-width: 90%;
+    height:95vh;
+    max-width: 75%;
     margin: 0;
-    max-height: 100vh;
     border-radius: 20px;
+    display: flex;
     overflow: hidden;
     position: relative;
+    justify-content: center;
 }
 
 .sideBar {
-    list-style-type: none;
-}
+    list-style-type: none;}
 
 .sideBar svg {
     margin-top: 10px;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     color: #EEFAFF;
     margin-left: -20px;
+    padding:10px;
+    background-color: rgb(255,255,255, 0.1);
+    border-radius: 50px;
 }
 .uploaderDetails{
     position:absolute;

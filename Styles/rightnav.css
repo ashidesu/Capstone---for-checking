@@ -1,0 +1,73 @@
+.userCard {
+    width: 100%;
+    height: 10vh auto;
+    top: 0;
+    right: 0;
+    margin-top: 2vh;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.05);
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 24px;
+    padding: 20px 0px 20px 0px;
+}
+
+.user-name {
+    color: white;
+    font-size: 16px;
+    font-family: 'choiceText';
+    text-align: right;
+    margin: 0 70px 0px 0px;
+
+}
+
+.user-username {
+    color: rgb(190,190,190);
+    font-size: 12px;
+    font-family: 'choiceText';
+    text-align: right;
+    margin: 2px 70px 0px 0px;
+
+}
+
+.userCard svg {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 10px;
+    color: white;
+}
+.contact{
+    color:white;
+    font-family: 'choiceText';
+    text-align: right;
+    margin-right:2px;
+    font-size:12px;
+}
+.connection-list li{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    border-radius: 12px;
+    margin-bottom:10px;
+}
+.connection-list li:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+    cursor:pointer;
+}
+.connection-list{
+    margin-right: 10px;
+}
+.connection{
+    color:rgb(190,190,190);
+    font-family: 'nav';
+    font-size:16px;
+    text-align: right;
+    margin-right: 25px;
+}
+.connection-list li svg{
+    color:white;
+    height:40px;
+    width:40px;
+}
