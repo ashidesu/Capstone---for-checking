@@ -4,7 +4,7 @@ class leftNavigation extends HTMLElement {
             <link rel="stylesheet" href="../Styles/sidebar.css">
             <p class='Foodie'>Foodie</p>
             <ul class=leftBar>
-                <li class='leftChoiceSelected'>
+                <a href = "../Pages/index.html"><li class='leftChoiceSelected'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
                         <path
                             d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
@@ -12,7 +12,7 @@ class leftNavigation extends HTMLElement {
                             d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
                     </svg>
                     Home
-                </li>
+                </li></a>
                 <li class='leftChoices'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                         class="size-6">
                         <path fill-rule="evenodd"
@@ -38,20 +38,20 @@ class leftNavigation extends HTMLElement {
                         <path d="M19.5 19.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z" />
                     </svg>
                     Order</li>
-                <li class ="leftChoices"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <a href = "../Pages/create.html"><li class ="leftChoices"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
             <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 9a.75.75 0 0 0-1.5 0v2.25H9a.75.75 0 0 0 0 1.5h2.25V15a.75.75 0 0 0 1.5 0v-2.25H15a.75.75 0 0 0 0-1.5h-2.25V9Z" clip-rule="evenodd" />
             </svg>
             Upload
-            </ul>
+            </ul></a>
 
             <hr style = "margin: 10px 10px 0 10px">
             <p class = "trending">Trending Now</p>
             <ul class = "trending-list">
-                <li class = "trending-topic">#GisingPaAko</li>
-                <li class = "trending-topic">#TsakaNaPagTulogNaAko</li>
-                <li class = "trending-topic">#GinawaKoYonKasiMahalKo</li>
-                <li class = "trending-topic">#NagbigayKasiSiyaNgMotibo</li>
-                <li class = "trending-topic">#LasingKasiAkoNon</li>
+                <li class = "trending-topic">#MLBB</li>
+                <li class = "trending-topic">#VALORANT</li>
+                <li class = "trending-topic">#HOK</li>
+                <li class = "trending-topic">#COC</li>
+                <li class = "trending-topic">#ALBION</li>
             </ul>
         `;
     }
