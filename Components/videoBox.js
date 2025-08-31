@@ -1,13 +1,22 @@
 class feed extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-        <link rel="stylesheet" href="../Styles/vidbox.css">
+connectedCallback() {
+this.innerHTML = `
+<link rel="stylesheet" href="../Styles/vidbox.css">
 <div class='videoBox'>
     <div class='videoContainer'>
         <div class="videoBorder">
+
             <video preload="none" poster="vert2.png" autoplay muted loop playsinline>
                 <source src="../rss/vid4.mp4" type="video/mp4">
+
             </video>
+            <div class="uploaderDetails">
+
+                <p class="uploaderName"> Renz Advincula </p>
+                <p class="uploaderUsername"> @renz </p>
+                <p class="timeUploaded"> 34 minutes ago </p>
+
+            </div>
         </div>
         <div class="sideBarDiv">
             <ul class="sideBar">
@@ -39,7 +48,15 @@ class feed extends HTMLElement {
             <video preload="none" poster="vert2.png" autoplay muted loop playsinline>
                 <source src="../rss/vid2.mp4" type="video/mp4">
             </video>
+            <div class="uploaderDetails">
+
+                <p class="uploaderName"> Renz Advincula </p>
+                <p class="uploaderUsername"> @renz </p>
+                <p class="timeUploaded"> 34 minutes ago </p>
+
+            </div>
         </div>
+
         <div class="sideBarDiv">
             <ul class="sideBar">
                 <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
@@ -70,6 +87,14 @@ class feed extends HTMLElement {
             <video preload="none" poster="vert2.png" autoplay muted loop playsinline>
                 <source src="../rss/vid3.mp4" type="video/mp4">
             </video>
+
+            <div class="uploaderDetails">
+
+                <p class="uploaderName"> Renz Advincula </p>
+                <p class="uploaderUsername"> @renz </p>
+                <p class="timeUploaded"> 34 minutes ago </p>
+
+            </div>
         </div>
         <div class="sideBarDiv">
             <ul class="sideBar">
@@ -95,8 +120,8 @@ class feed extends HTMLElement {
         </div>
     </div>
 </div>
-        `;
-    }
+`;
+}
 }
 
 export default feed;

@@ -1,55 +1,56 @@
-                
+.Foodie {
+    font-family: 'nav';
+    font-size: 45px;
+    color: #E63946;
+    margin: 10px;
+}
 
-            .Foodie{
-                font-family: 'nav';
-                font-size: 45px;
-                color: #E63946;
-                margin: 10px;
-            }
-            .leftBar {
-                list-style: none;
-                margin: 0px;
-            }
+.leftBar {
+    list-style: none;
+    margin: 0px;
+}
 
-            .leftChoices {
-                width: 150px;
-                height: auto;
-                margin-top: 5px;
-                padding: 10px;
-                border-radius: 5px;
-                margin-left: -20px;
-                display: flex;
-                align-items: center;
-                font-family: 'choiceText';
-                font-size: 18px;
-                color: #EEFAFF;
-            }
+.leftChoices {
+    width: 150px;
+    height: auto;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    font-family: 'choiceText';
+    font-size: 18px;
+    color: #EEFAFF;
+}
 
-            .leftChoices:hover {
-                background-color: #222627;
-                cursor: pointer;
-            }
-            .leftChoiceSelected {
-                width: 150px;
-                height: auto;
-                margin-top: 5px;
-                padding: 10px;
-                border-radius: 5px;
-                margin-left: -20px;
-                display: flex;
-                align-items: center;
-                font-family: 'choiceText';
-                font-size: 18px;
-                color: #E63946;
-            }
+.leftChoices:hover {
+    background-color: #222627;
+    cursor: pointer;
+}
 
-            .leftChoices svg {
-                height: 20px;
-                width: 20px;
-                padding-right: 4px;
-            }
-            .leftChoiceSelected svg {
-                height: 20px;
-                width: 20px;
-                padding-right: 4px;
-            }
+.leftChoiceSelected {
+    width: 150px;
+    height: auto;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    font-family: 'choiceText';
+    font-size: 18px;
+    color: #E63946;
+}
+
+.leftChoices svg {
+    height: 20px;
+    width: 20px;
+    padding-right: 4px;
+}
+
+.leftChoiceSelected svg {
+    height: 20px;
+    width: 20px;
+    padding-right: 4px;
+}
